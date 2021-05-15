@@ -3,6 +3,7 @@
 
 
 $install_puppet = <<-PUPPET
+sudo apt-get update -y
 sudo apt-get install -y puppet
 PUPPET
 
